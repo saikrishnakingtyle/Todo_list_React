@@ -1,0 +1,43 @@
+* {
+  font-family: "Lobster", cursive;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  margin: 20px 80px;
+
+  background-color: lightgreen;
+  border-radius: 10px;
+
+  min-height: 100px;
+}
+.heading {
+  padding-top: 10px;
+}
+.inputt {
+  border-radius: 5px;
+  background-color: lightgreen;
+  margin-right: 10px;
+
+  border-color: green;
+}
+input:checked {
+  background-color: green;
+}
+button {
+  border-radius: 5px;
+  background-color: green;
+}
+p {
+}
+.dataitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  align-conter: center;
+  margin: auto;
+}
