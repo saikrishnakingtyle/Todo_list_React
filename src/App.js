@@ -13,6 +13,7 @@ export default function App() {
     getData((prev_Val) => {
       return [...prev_Val, inputData];
     });
+    getInputData("");
   }
   function oncLick() {
     setStyle((prev_val) => {
@@ -22,7 +23,7 @@ export default function App() {
   return (
     <div className="App">
       <h1 class="heading">ToDo List</h1>
-      <input onChange={inputVal} className="inputt"></input>
+      <input onChange={inputVal} className="inputt" value={inputData}></input>
       <button onClick={getVal}>Click</button>
       <div>
         {data.map((dat) => (
